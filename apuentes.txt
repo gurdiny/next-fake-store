@@ -1,0 +1,14 @@
+En la public se usa para agregar imagenes o arhivos
+
+todos los archivos dentro de la carpeta Pages, soin paginas
+
+
+Las paginas dinamicas se encierran en [].jsx
+No se puede hacer dos paginas dinamicas en una sola carpeta
+
+_document y _pp pueden ser js o jsx
+el _document engloba todos los elementos que afectan en todo el html como para agregar header o footer
+Primero se renderíza el _document y contiene todo lo demas
+
+
+el <Component {...pageProps} />; es el layout que abarca en todas las paginas, l ideal es que aqui se ocupen las librerias que se van a importar
